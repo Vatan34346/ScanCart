@@ -1,0 +1,161 @@
+.container {
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* Pictures */
+.pictureVariants {
+  padding-right: 2rem;
+  display: flex;
+  flex: 1 2 1;
+  flex-direction: column;
+}
+.pictureVariant {
+  height: 50px;
+}
+.mainePicture {
+  flex: 1 1 1;
+  padding-right: 2rem;
+  height: 100%;
+  width: max-content;
+}
+.picture {
+  width: 650px;
+}
+
+/* Product info */
+.productInfo {
+  flex: 1 2 0;
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-start;
+}
+
+/* productInfo - Tittles */
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+}
+.productTitle {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: medium;
+  margin: 0;
+}
+.subTitle {
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  font-style: italic;
+  margin: 0;
+}
+
+/* productInfor - Sizes */
+.sizeContainer {
+  display: flex;
+  flex-direction: column;
+}
+.sizeTitle {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: medium;
+  margin-bottom: 0;
+}
+.sizeOutput {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+.sizeBox {
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1px solid black;
+  margin: 0;
+  margin-right: 2%;
+}
+.sizeBox:hover {
+  background-color: black;
+  color: white;
+}
+.sizeBox:focus {
+  background-color: black;
+  color: white;
+}
+
+/* productInfor - Color */
+.colorContainer {
+  display: flex;
+  flex-direction: column;
+}
+.colorTitle {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: medium;
+  margin-bottom: 0;
+}
+.colorOutput {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+}
+.colorBox {
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 1px solid black;
+  margin: 0;
+  margin-right: 2%;
+}
+.colorBox:hover {
+  border: 2px solid black;
+}
+.colorBox:focus {
+  border: 2px solid black;
+}
+
+/* productInfor - Price*/
+
+.priceContainer {
+  display: flex;
+  flex-direction: column;
+}
+.priceTitle {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  font-size: medium;
+  margin-bottom: 0;
+}
+.priceValue {
+  font-family: "Courier New", Courier, monospace;
+  font-size: medium;
+  font-style: italic;
+  margin-top: 0;
+}
+
+/* Button */
+.addButton {
+  width: fit-content;
+  background-color: lightcoral;
+}
+.addButton:hover {
+  background-color: darkgreen;
+}
+.buttonText {
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: white;
+}
+
+/* decription */
+.decription {
+  width: 20rem;
+}
+.descriptionText {
+  font-size: smaller;
+}
